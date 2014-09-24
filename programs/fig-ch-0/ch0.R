@@ -36,7 +36,8 @@ subt=textGrob("The top decile share in U.S. national income dropped from 45-50% 
 
 f2 <- arrangeGrob(f1, sub=subt)
 
-ggsave(paste0(outdir,"/ch0f1.pdf"), f2)
+ggsave(paste0(outdir,"/ch0f1.png"), f2, width=10, height=7)
+
 
  
 
