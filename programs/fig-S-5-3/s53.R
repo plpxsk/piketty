@@ -51,6 +51,6 @@ f2 <- f1 +
           panel.grid.minor.x = element_blank()
           )
 
-ggsave(paste0(outdir,"/ch5_fs5-4.png"), f2, width=10, height=7)
+ggsave(paste0(outdir,"/ch5_fs5-4.png"), f1, width=10, height=7)
 
 

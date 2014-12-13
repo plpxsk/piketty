@@ -9,8 +9,8 @@ Source data (including original spreadsheets and figures) from original author i
 
 
 ### Overview/Contents
-see /output/	for three figures
-and /programs/	for the R programs
+see /output/	for three figures  
+and /programs/	for the R programs  
 
 ![one](https://raw.githubusercontent.com/pavopax/piketty/master/output/ch0_f1.png)
 
