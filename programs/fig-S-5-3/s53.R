@@ -40,17 +40,25 @@ theme_set(theme_bw())
 
 f1 <- ggplot(dfl, aes(x=Year, y=Percent, colour=Country)) + geom_line(size=1.4)
 
+f1b <- f1 +
+    scale_x_continuous(breaks=seq(1970,2010,10)) +
+    scale_y_continuous(limits=c(0,2200), breaks=seq(0,2200,200)) +
+    ggtitle(expression(atop("Figure S5.4. Financial Liabilities in Rich Countries",
+        atop(italic("Based on T. Piketty (see README)"),""))))
+
+
+
 f2 <- f1 + 
     scale_x_continuous(breaks=seq(1970,2010,10)) +
     scale_y_continuous(limits=c(0,2200), breaks=seq(0,2200,200)) +
     scale_color_brewer(type="qual", palette=6) + 
-    ggtitle(expression(atop("Figure S5.4. Financial Liabilities in rich countries",
+    ggtitle(expression(atop("Figure S5.4. Financial Liabilities in Rich Countries",
         atop(italic("Based on T. Piketty (see README)"),"")))) +
     theme(panel.background = element_rect(fill = "gray40"),
           panel.grid.minor.y = element_blank(),
           panel.grid.minor.x = element_blank()
           )
 
-ggsave(paste0(outdir,"/ch5_fs5-4.png"), f1, width=10, height=7)
+ggsave(paste0(outdir,"/ch5_fs5-4.png"), f1b, width=10, height=7)
 
 

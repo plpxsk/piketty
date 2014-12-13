@@ -46,7 +46,7 @@ f2 <- f1 +
     scale_x_continuous(breaks=seq(1970,2010,10)) +
     scale_y_continuous(limits=c(0,910), breaks=seq(0,900,100)) +
     scale_color_brewer(type="qual", palette=6) + 
-    ggtitle(expression(atop("Figure 5.7. National capital in rich countries, 1970-2010",
+    ggtitle(expression(atop("Figure 5.7. National Capital in Rich Countries, 1970-2010",
         atop(italic("Based on T. Piketty (see README)"),"")))) +
     theme( panel.background = element_rect(fill = "gray70")
         , panel.grid.minor.y = element_blank()
