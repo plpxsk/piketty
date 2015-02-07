@@ -20,4 +20,4 @@ and /programs/	for the R programs
 
 
 ### SOURCE
-http://piketty.pse.ens.fr/en/capital21c
+http://piketty.pse.ens.fr/en/capital21c2
