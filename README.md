@@ -2,7 +2,7 @@
 
 
 ### Quick Start
-I recreated a few figures from this book. It seems that others had similar ideas:
+I recreated a few figures from this book, for fun. It seems that others had similar ideas:
 http://simplystatistics.org/2014/06/30/piketty-in-r-markdown-we-need-some-help-from-the-crowd/
 
 Source data (including original spreadsheets and figures) from original author is linked at bottom.
